@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_data_set"
+        android:orderInCategory="1"
+        android:title="Add DataSet"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_show_hide_central_line"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:orderInCategory="2"
+        android:title="Central line Enabled"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_show_hide_central_label"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:orderInCategory="3"
+        android:title="Central label Enabled"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_enable_disable_snap"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:orderInCategory="4"
+        android:title="Snap Enabled"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_pan_left"
+        android:orderInCategory="5"
+        android:title="Pan Left"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_pan_right"
+        android:orderInCategory="6"
+        android:title="Pan Right"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_move_start"
+        android:orderInCategory="7"
+        android:title="Move Start"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_move_end"
+        android:orderInCategory="8"
+        android:title="Move End"
+        app:showAsAction="never"/>
+</menu>

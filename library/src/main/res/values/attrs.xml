@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoScaleGraphView">
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="pointRadius" format="dimension"/>
+        <attr name="focusedPointRadius" format="dimension"/>
+        <attr name="focusedPointColor" format="color"/>
+        <attr name="focusedPointStrokeWidth" format="dimension"/>
+        <attr name="drawFocusedPoints" format="boolean"/>
+        <attr name="pointClickRadius" format="dimension"/>
+        <attr name="labelBackgroundColor" format="color"/>
+        <attr name="labelPaddingLeft" format="dimension"/>
+        <attr name="labelPaddingTop" format="dimension"/>
+        <attr name="labelPaddingRight" format="dimension"/>
+        <attr name="labelPaddingBottom" format="dimension"/>
+        <attr name="labelStrokeColor" format="color"/>
+        <attr name="labelTextColor" format="color"/>
+        <attr name="labelCornerRadius" format="dimension"/>
+        <attr name="labelTextSize" format="dimension"/>
+        <attr name="labelStrokeWidth" format="dimension"/>
+        <attr name="labelCentralLineOffset" format="dimension"/>
+        <attr name="centralLineWidth" format="dimension"/>
+        <attr name="centralLineDashWidth" format="integer"/>
+        <attr name="centralLineGapWidth" format="integer"/>
+        <attr name="centralLineColor" format="color"/>
+        <attr name="scaleDuration" format="integer"/>
+        <attr name="snapDuration" format="integer"/>
+        <attr name="snapEnabled" format="boolean"/>
+        <attr name="drawCentralLine" format="boolean"/>
+        <attr name="drawCentralLabel" format="boolean"/>
+        <attr name="gridColor" format="color"/>
+        <attr name="gridLabelColor" format="color"/>
+        <attr name="gridLabelSeparation" format="dimension"/>
+        <attr name="axisWidth" format="dimension"/>
+        <attr name="xAxisLabelSeparation" format="dimension"/>
+        <attr name="yAxisLabelSeparation" format="dimension"/>
+        <attr name="yAxisTextSize" format="dimension"/>
+        <attr name="xAxisTextSize" format="dimension"/>
+        <attr name="visibleXRange" format="integer"/>
+        <attr name="xInterval" format="integer"/>
+    </declare-styleable>
+</resources>

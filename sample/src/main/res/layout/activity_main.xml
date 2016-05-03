@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zoopolitic.sample.MainActivity"
+    >
+
+    <com.zoopolitic.graphview.AutoScaleGraphView
+        android:id="@+id/graphView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        custom:focusedPointColor="@android:color/holo_red_dark"
+        custom:focusedPointRadius="10dp"
+        android:paddingTop="16dp"
+        custom:gridLabelColor="#bdbdbd"
+        custom:labelCentralLineOffset="6dp"
+        custom:lineWidth="4dp"
+        custom:labelTextColor="@android:color/black"
+        custom:pointClickRadius="16dp"
+        custom:pointRadius="5dp"
+        custom:visibleXRange="7"
+        custom:xAxisLabelSeparation="12dp"
+        />
+</RelativeLayout>

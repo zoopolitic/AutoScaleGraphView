@@ -1,0 +1,40 @@
+# Custom
+_site
+
+# Ant
+build.num
+
+# ADT
+.classpath
+.project
+.settings
+local.properties
+bin
+gen
+_layouts
+proguard.cfg
+-
+
+# OSX
+.DS_Store
+
+# Github
+gh-pages
+
+# Gradle
+.gradle
+build
+gradlew.bat
+gradlew
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+out
+.idea
+
+# Maven
+target
+release.properties
+pom.xml.*
