@@ -192,7 +192,7 @@ public class AutoScaleGraphView extends View {
             this.gridColor = array.getColor(R.styleable.AutoScaleGraphView_gridColor, Color.parseColor("#e0e0e0"));
             this.gridLabelColor = array.getColor(R.styleable.AutoScaleGraphView_gridLabelColor, gridColor);
             this.yAxisLabelSeparation = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_gridLabelSeparation, (int) dpToPx(6));
-            this.yAxisWidth = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_gridLabelSeparation, (int) dpToPx(1));
+            this.yAxisWidth = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_axisWidth, (int) dpToPx(1));
             this.yAxisTextSize = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_yAxisTextSize, (int) dpToPx(12));
             this.xAxisTextSize = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_xAxisTextSize, (int) dpToPx(12));
             this.yAxisLabelSeparation = array.getDimensionPixelSize(R.styleable.AutoScaleGraphView_yAxisLabelSeparation, (int) dpToPx(6));

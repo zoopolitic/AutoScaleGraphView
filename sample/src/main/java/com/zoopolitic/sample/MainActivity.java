@@ -90,8 +90,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addRandomDataSet() {
-        int lineColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-        int pointsColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+//        int lineColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+//        int pointsColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+
+        int lineColor = getResources().getColor(R.color.colorPrimary);
+        int pointsColor = getResources().getColor(R.color.colorPrimaryDark);
 
         List<DataPoint> points = new ArrayList<>();
         int observingDaysCount = 110;
