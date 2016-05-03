@@ -1,6 +1,6 @@
 # AutoScaleGraphView
 Auto Scale Graph View allows create GoogleFit-like autoscaling graph
-<img src="https://raw.githubusercontent.com/zoopolitic/master/demo.gif" width="30%" /> 
+<img src="https://github.com/zoopolitic/AutoScaleGraphView/blob/master/demo.gif?raw=true" width="30%" /> 
 
 ## License
 
