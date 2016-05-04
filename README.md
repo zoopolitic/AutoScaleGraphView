@@ -52,6 +52,9 @@ Auto Scale Graph View allows create GoogleFit-like autoscaling graph
     custom:yAxisTextSize="12sp"
     />
 ```
+
+### Usage
+
 ## Gradle
 
 ```groovy
