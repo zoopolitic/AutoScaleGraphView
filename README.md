@@ -55,6 +55,17 @@ Auto Scale Graph View allows create GoogleFit-like autoscaling graph
 
 ### Usage
 
+```java
+    List<DataPoint> points = new ArrayList<>();
+        
+    points.add(new DataPoint(0, 10));
+    points.add(new DataPoint(0, 15));
+    points.add(new DataPoint(0, 20));
+    points.add(new DataPoint(0, 18));
+        
+    graphView.addDataSet(new DataSet(lineColor, pointsColor, points));
+```
+
 ## Gradle
 
 ```groovy
