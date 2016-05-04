@@ -52,6 +52,21 @@ Auto Scale Graph View allows create GoogleFit-like autoscaling graph
     custom:yAxisTextSize="12sp"
     />
 ```
+## Gradle
+
+```groovy
+compile 'com.zoopolitic:auto-scale-graphview:0.1'
+```
+
+**Maven:**
+```xml
+<dependency>
+  <groupId>com.zoopolitic</groupId>
+  <artifactId>auto-scale-graphview</artifactId>
+  <version>0.1</version>
+  <type>pom</type>
+</dependency>
+```
 
 ## License
 
