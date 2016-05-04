@@ -32,7 +32,7 @@ import java.util.List;
 import static com.zoopolitic.graphview.AndroidUtils.dpToPx;
 
 /**
- * Created by zoopolitic on 20 Апрель 2016 18:22.
+ * Created by zoopolitic
  */
 public class AutoScaleGraphView extends View {
 
@@ -303,6 +303,19 @@ public class AutoScaleGraphView extends View {
         scale();
         ViewCompat.postInvalidateOnAnimation(this);
     }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        int minChartSize = getResources().getDimensionPixelSize(R.dimen.min_chart_size);
+        setMeasuredDimension(
+                Math.max(getSuggestedMinimumWidth(),
+                        resolveSize(minChartSize + getPaddingLeft() + getPaddingRight(),
+                                widthMeasureSpec)),
+                Math.max(getSuggestedMinimumHeight(),
+                        resolveSize(minChartSize + getPaddingTop() + getPaddingBottom(),
+                                heightMeasureSpec)));
+    }
+
 
     @Override
     protected void onDraw(Canvas canvas) {
